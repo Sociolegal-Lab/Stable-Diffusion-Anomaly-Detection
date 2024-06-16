@@ -1,0 +1,13 @@
+diffusers
+matplotlib
+numpy
+opencv_python
+Pillow
+Pandas
+requests
+setuptools
+scikit-image
+transformers
+torch
+torchvision
+torchmetrics

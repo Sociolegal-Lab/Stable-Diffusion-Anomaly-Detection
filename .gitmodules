@@ -1,0 +1,9 @@
+[submodule "segment-anything"]
+	path = segment-anything
+	url = https://github.com/facebookresearch/segment-anything.git
+[submodule "diffusers"]
+	path = diffusers
+	url = https://github.com/huggingface/diffusers.git
+[submodule "ip_adapter"]
+	path = ip_adapter
+	url = https://github.com/tencent-ailab/IP-Adapter.git
