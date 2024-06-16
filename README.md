@@ -4,4 +4,19 @@ Visual anomaly detection is essential for industrial quality inspection and medi
 
 ## Installation
 
-    python -m pip install -r requirements.txt
+```bash
+python -m pip install -r requirements.txt
+```
+
+**Download the pretrained weights**
+
+```bash
+mkdir models
+cd models
+wget -q https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+```
+
+## Inference
+```bash
+python scripts/main.py
+```
